@@ -1,17 +1,2 @@
 <!-- Set canonical url -->
 <link rel="canonical" href="{{ cdx.url }}"/>
-
-<!-- Inject Hypothesis -->
-<script>
-(function () {
-var embed_script = document.createElement("script");
-embed_script.src = "{{ h_embed_url }}";
-document.head.appendChild(embed_script);
-window.hypothesisConfig = function() {
-    return {
-      showHighlights: true,
-      appType: 'via'
-    };
-}
-})();
-</script>
